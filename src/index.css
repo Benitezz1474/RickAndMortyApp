@@ -9,10 +9,12 @@ html{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
 :root{
   --green:rgba(86, 206, 86, 0.73);
 
 }
+
 
 body{
   margin-bottom: 120px;
@@ -29,6 +31,7 @@ body{
   gap: 20px;
 }
 
+
 .card{
   display: flex;
   align-items: center;
@@ -44,6 +47,8 @@ body{
   transition: all 0.4s;
 }
 
+
+
 .card:hover{
   transition: all 0.4s;
   cursor: pointer;
@@ -54,6 +59,7 @@ body{
 
 
 }
+
 
 .card img{
 
@@ -73,10 +79,12 @@ body{
 
 }
 
+
 .card span{
 
   color: rgba(0, 38, 255, 0.858);
 }
+
 
 .pagination{
   position: fixed;
@@ -91,6 +99,7 @@ body{
 
 }
 
+
 .pagination button{
   background-color: #fff;
   padding: 10px 20px;
@@ -103,6 +112,7 @@ body{
   transition: all 0.4s;
 }
 
+
 .pagination button:hover{
   color: #fff;
   background-color: rgb(17, 119, 236);
@@ -110,6 +120,7 @@ body{
   outline: 1px solid #fff;
   transition: all 0.4s;
 }
+
 
 
 
