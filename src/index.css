@@ -9,8 +9,14 @@ html{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+:root{
+  --green:rgba(86, 206, 86, 0.73);
+
+}
+
 body{
   margin-bottom: 120px;
+  padding: 30px 10px;
 }
 
 .cardContent{
@@ -35,6 +41,18 @@ body{
 
   border-radius: 10px;
   box-shadow: 5px 5px 10px 0 rgba(95, 94, 94, 0.753);
+  transition: all 0.4s;
+}
+
+.card:hover{
+  transition: all 0.4s;
+  cursor: pointer;
+  transform: translateY(-30px);
+  position: relative;
+  z-index: 2;
+  background-color: var(--green);
+
+
 }
 
 .card img{
@@ -66,7 +84,7 @@ body{
   width: 100%;
   height: auto;
   padding: 20px;
-  background-color: rgba(86, 206, 86, 0.73);
+  background-color: var(--green);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -92,6 +110,8 @@ body{
   outline: 1px solid #fff;
   transition: all 0.4s;
 }
+
+
 
 
 @media screen and (min-width: 500px){
