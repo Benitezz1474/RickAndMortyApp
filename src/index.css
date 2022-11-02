@@ -80,8 +80,17 @@ body{
   border-radius: 2px;
   text-align: center;
   margin: 20px;
-  outline: 1px solid blue;
-  color: blue;
+  outline: 1px solid rgb(0, 0, 255);
+  color: rgb(0, 0, 255);
+  transition: all 0.4s;
+}
+
+.pagination button:hover{
+  color: #fff;
+  background-color: rgb(17, 119, 236);
+  cursor: pointer;
+  outline: 1px solid #fff;
+  transition: all 0.4s;
 }
 
 
@@ -157,4 +166,5 @@ body{
   .card img{
     width: 90%;
   }
+
 }
